@@ -34,6 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OnFlight"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_on_flight"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
