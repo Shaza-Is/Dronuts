@@ -24,9 +24,17 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
-
         <activity
-            android:name=".MapsActivity"
+            android:name="MainActivity"
+            android:label="AgriQuad" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="MapsActivity"
             android:label="@string/title_activity_maps" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,6 +48,7 @@
             android:label="@string/title_activity_on_flight"
             android:theme="@style/FullscreenTheme" >
         </activity>
+
     </application>
 
 </manifest>
