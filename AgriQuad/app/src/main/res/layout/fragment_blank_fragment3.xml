@@ -70,14 +70,13 @@
         android:layout_below="@+id/checkBox2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <ExpandableListView
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/expandableListView"
+        android:id="@+id/spinner"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/textView" />
+        android:spinnerMode="dialog"/>
 
 </RelativeLayout>

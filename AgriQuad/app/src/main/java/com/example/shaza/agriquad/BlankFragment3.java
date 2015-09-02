@@ -7,6 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.content.Intent;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 
 /**
@@ -17,7 +20,7 @@ import android.content.Intent;
  * Use the {@link BlankFragment3#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment3 extends Fragment {
+public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelectedListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
  //   private static final String ARG_PARAM1 = "param1";
@@ -74,7 +77,27 @@ public class BlankFragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
+       // return inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
+        View view = inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
+        Spinner spinner = (Spinner)view.findViewById(R.id.spinner);
+        // spinner.setOnItemSelectedListener(this);
+        //  ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(rootView.getContext(),R.array.planets_array,android.R.layout.simple_spinner_dropdown_item) ;
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.planets_array, android.R.layout.simple_spinner_dropdown_item); // Create an ArrayAdapter using the string array and a default spinner layout
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+
+        return view;
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event
