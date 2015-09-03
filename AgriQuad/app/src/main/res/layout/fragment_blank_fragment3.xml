@@ -42,7 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/textView2"
         android:layout_toEndOf="@+id/textView2"
-        android:onClick="map"/>
+        android:onClick="toMap"/>
 
     <CheckBox
         android:layout_width="wrap_content"
