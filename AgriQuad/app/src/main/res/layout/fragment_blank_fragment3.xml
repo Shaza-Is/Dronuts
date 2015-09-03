@@ -47,8 +47,9 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox"
+        android:text="captures"
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/captures"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -56,18 +57,20 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox2"
-        android:layout_below="@+id/checkBox"
+        android:text="height"
+        android:onClick="onCheckboxClicked"
+        android:id="@+id/height"
+        android:layout_below="@+id/captures"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="ay 7aga ya loly"
         android:id="@+id/checkBox3"
-        android:layout_below="@+id/checkBox2"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/height"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
     <Spinner

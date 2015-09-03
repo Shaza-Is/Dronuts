@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.content.Intent;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.Spinner;
 
 
@@ -98,6 +99,37 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+    public void onCheckboxClicked(View hi) {
+
+        // Is the view now checked?
+        boolean checked = ((CheckBox) hi).isChecked();
+
+        // Check which checkbox was clicked
+        switch (hi.getId()) {
+            case R.id.captures:
+                if (checked) {
+                    // Put some meat on the sandwich
+                } else
+
+                {// Remove the meat
+                }
+            case R.id.height:
+                if (checked) {
+                    // Cheese me
+                } else {
+                    // I'm lactose intolerant
+                }
+            case R.id.checkBox3:
+                if (checked) {
+                    //khk
+                }else {
+                    //bnjn
+                }
+                // TODO: Veggie sandwich
+
+
+        }
     }
 
     // TODO: Rename method, update argument and hook method into UI event
