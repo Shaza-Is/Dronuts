@@ -171,10 +171,10 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
  //       public void onFragmentInteraction(Uri uri);
  //   }
 
-    public void toMap(View v){
+  /*  public void toMap(View v){
         Intent intent = new Intent(getActivity(), MapsActivity.class);
 
         startActivity(intent);
 
-    }
+    }*/
 }
