@@ -1,6 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/frame"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-</FrameLayout><!-- From: file:/home/shaza/Desktop/Projects/try/1Sheeld-Android-App/quickReturnHeader/src/main/res/layout/qrh__listview_container.xml -->
