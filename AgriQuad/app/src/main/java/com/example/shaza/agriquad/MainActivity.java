@@ -12,6 +12,10 @@ import android.view.MenuItem;
 import android.view.View;
 
 import java.util.Locale;
+import com.integreight.onesheeld.sdk.KnownShields;
+import com.integreight.onesheeld.sdk.KnownShield;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
      * {@link android.support.v4.app.FragmentStatePagerAdapter}.
      */
     SectionsPagerAdapter mSectionsPagerAdapter;
+
+
 
     /**
      * The {@link ViewPager} that will host the section contents.
