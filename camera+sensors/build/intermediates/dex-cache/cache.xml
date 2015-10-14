@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-f180e6e24e50d159653a27dc4637fc714a59a155.jar" />
+    </item>
+    <item
+        jar="/home/shaza/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-8e8a99e051b473cd0fdec3fbfcb24f9c020bc3c6.jar" />
+    </item>
+    <item
+        jar="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/exploded-aar/com.integreight.onesheeld/sdk/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7df5d0f4f37cf5be723618a3c77dc72f32aa911a">
+        <dex dex="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/pre-dexed/debug/classes-7b935bad4efa92e17b675b7218884bb37c1eb2a2.jar" />
+    </item>
+    <item
+        jar="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/pre-dexed/debug/classes-c7ca27944da67565bd58fdd7db172f152247fe97.jar" />
+    </item>
+    <item
+        jar="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/home/shaza/Desktop/Projects/try/camera+sensors/app/build/intermediates/pre-dexed/debug/classes-1b15cb9730e7af593d60ee97976802ada5af4998.jar" />
+    </item>
+
+</items>
