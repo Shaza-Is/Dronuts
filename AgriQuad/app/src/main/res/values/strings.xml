@@ -17,13 +17,14 @@
 
     <string name="action_settings">Settings</string>
     <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="data_saved">
+        <item>"captures"</item>
+        <item>"height"</item>
+        <item>"location"</item>
     </string-array>
 </resources>

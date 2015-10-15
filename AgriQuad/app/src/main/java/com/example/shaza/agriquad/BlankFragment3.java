@@ -65,28 +65,38 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
     }
 
 
-  //  @Override
+//  @Override
 //    public void onCreate(Bundle savedInstanceState) {
- //       super.onCreate(savedInstanceState);
- //       if (getArguments() != null) {
+//        super.onCreate(savedInstanceState);
+
+      //       if (getArguments() != null) {
  //           mParam1 = getArguments().getString(ARG_PARAM1);
  //           mParam2 = getArguments().getString(ARG_PARAM2);
 //        }
- //   }
 
- //   @Override
+// }
+
+
+
+    //   @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
        // return inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
         View view = inflater.inflate(R.layout.fragment_blank_fragment3, container, false);
         Spinner spinner = (Spinner)view.findViewById(R.id.spinner);
+        Spinner spinnerd = (Spinner)view.findViewById(R.id.spinner2);
         // spinner.setOnItemSelectedListener(this);
         //  ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(rootView.getContext(),R.array.planets_array,android.R.layout.simple_spinner_dropdown_item) ;
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.planets_array, android.R.layout.simple_spinner_dropdown_item); // Create an ArrayAdapter using the string array and a default spinner layout
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(getActivity(), R.array.data_saved, android.R.layout.simple_spinner_dropdown_item); // Create an ArrayAdapter using the string array and a default spinner layout
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
+        spinnerd.setAdapter(adapter2);
+        //CheckBox checkBox1 = (CheckBox) view.findViewById(R.id.captures);
+        //checkBox1.setOnCheckedChangeListener(this);
 
         return view;
     }
@@ -94,19 +104,21 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
+
     }
 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
-    public void onCheckboxClicked(View hi) {
+
 
         // Is the view now checked?
-        boolean checked = ((CheckBox) hi).isChecked();
+       // boolean checked = ((CheckBox) hi).isChecked();
+
 
         // Check which checkbox was clicked
-        switch (hi.getId()) {
+      /*  switch (hi.getId()) {
             case R.id.captures:
                 if (checked) {
                     // Put some meat on the sandwich
@@ -114,23 +126,27 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
 
                 {// Remove the meat
                 }
+                break;
             case R.id.height:
                 if (checked) {
                     // Cheese me
                 } else {
                     // I'm lactose intolerant
                 }
+                break;
             case R.id.checkBox3:
                 if (checked) {
                     //khk
+
                 }else {
                     //bnjn
                 }
-                // TODO: Veggie sandwich
+                break;
+              // TODO: Veggie sandwich
 
 
-        }
-    }
+        }*/
+
 
     // TODO: Rename method, update argument and hook method into UI event
  //   public void onButtonPressed(Uri uri) {
@@ -178,3 +194,4 @@ public class BlankFragment3 extends Fragment implements AdapterView.OnItemSelect
 
     }*/
 }
+
